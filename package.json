@@ -5,12 +5,14 @@
   "files": [
     "tsconfig.json"
   ],
-  "scripts": {},
+  "scripts": {
+    "prettier": "prettier --list-different '**/*.{js,jsx,json,md,mdx,ts,tsx}'",
+    "prettier:fix": "prettier --write '**/*.{js,jsx,json,md,mdx,ts,tsx}'"
+  },
   "dependencies": {
     "typescript": "^4.9.3"
   },
   "devDependencies": {
-      "@pheis/prettier-config": "git+ssh://git@github.com:pheis/prettier-config.git"
-
+    "@pheis/prettier-config": "git+ssh://git@github.com:pheis/prettier-config.git"
   }
 }
