@@ -8,5 +8,9 @@
   "scripts": {},
   "dependencies": {
     "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+      "@pheis/prettier-config": "git+ssh://git@github.com:pheis/prettier-config.git"
+
   }
 }
