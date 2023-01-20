@@ -1,5 +1,5 @@
 {
-  "name": "@pheis/prettier-config",
+  "name": "@pheis/tsconfig",
   "version": "0.0.1",
   "main": "tsconfig.json",
   "files": [
